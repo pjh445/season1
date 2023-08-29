@@ -11,7 +11,7 @@ $(document).ready(function(){
 		$("nav a").eq( i ).addClass("act");
 	}
 	
-	$("#nav").contents().find("a").eq(0).css("background", 'red');
+	$("embed").contents().find("a").eq(0).css("background", 'red');
 		
 	
 });////////////전체끝
