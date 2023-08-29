@@ -20,7 +20,7 @@ $(document).ready(function(){
 		$("#menu", parent.document ).contents().find("nav a").addClass("act");
 	}
 	
-	$("nav").a.eq(2).addClass("act");
+	$("nav a").eq(2).addClass("act");
 
 	
 });////////////전체끝
