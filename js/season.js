@@ -1,5 +1,7 @@
 $(document).ready(function(){	
 		
+	$("embed").contents().find("a").eq(0).css("background", 'red');
+	
 	//링크이동한 페이지로 인수 전달하기*
 	var urlSearch = new URLSearchParams(location.search);
        	var param = urlSearch.get('p');
@@ -10,7 +12,7 @@ $(document).ready(function(){
 		$("nav a").addClass("act");
 	}
 	
-	$("embed").contents().find("a").eq(0).css("background", 'red');
+	
 		
 	
 });////////////전체끝
