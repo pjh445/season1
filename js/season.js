@@ -32,7 +32,7 @@ function sendMsgToChild( msg ) {
 	
 	//index페이지는 ?쿼리스트링이 없는데 빈문자열로 인식하는 문제
 	if( i != ""){		
-		$("embed").contents().find("nav a").eq( i ).addClass("act");
+		$("embed". iframe.contents()).find("nav a").eq( i ).addClass("act");
 	}	
 
 		
