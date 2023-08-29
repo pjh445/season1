@@ -7,14 +7,11 @@ $(document).ready(function(){
 	console.log(pa); //?p=0
 	const i = pa.substr(-1);// 0,1,2,3
 	console.log( i );  //1,2,3 중 하나.
-	$("#menu a").eq( i ).addClass("act");
+	
 	//index페이지는 ?쿼리스트링이 없는데 빈문자열로 인식하는 문제
 	if( i != ""){
-		$(this).parent().contents().find("#menu a").css("border", "5px solid red");
-		$("#menu a").eq( i ).addClass("act");
+		$("#menu a").eq( i ).prop("class", "act");
 	}
-	
-	console.log(  $("#menu nav").text() );
 	
 });////////////전체끝
 
