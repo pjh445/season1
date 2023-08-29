@@ -1,7 +1,7 @@
 $(document).ready(function(){	
 
     $("#menu").load("nav.html");	
-	$("#menu").css("border","5px solid tomato");
+	
 	//링크이동한 페이지로 인수 전달하기*	
 	const pa = $(location).prop("search");//?쿼리스트링
 	console.log(pa); //?p=0
@@ -9,7 +9,8 @@ $(document).ready(function(){
 	console.log( i );  //1,2,3 중 하나.
 	$("#menu a").eq( i ).addClass("act");
 	//index페이지는 ?쿼리스트링이 없는데 빈문자열로 인식하는 문제
-	if( i != ""){		
+	if( i != ""){
+		$(this).parent().contents().find("#menu a").css("border", "5px solid red");
 		$("#menu a").eq( i ).addClass("act");
 	}
 	
