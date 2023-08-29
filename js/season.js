@@ -1,7 +1,7 @@
 $(document).ready(function(){	
 
     $("#menu").load("nav.html");	
-	
+	$("#menu").css("border","5px solid tomato");
 	//링크이동한 페이지로 인수 전달하기*	
 	const pa = $(location).prop("search");//?쿼리스트링
 	console.log(pa); //?p=0
