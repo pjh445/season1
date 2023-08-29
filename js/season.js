@@ -1,6 +1,6 @@
 $(document).ready(function(){	
 		
-	let xx = $(this).parent().children("embed").contents();
+	let xx = $("body").parent().children("embed").contents();
 	let yy = xx.find("a").eq(0);
 	yy.css("background", 'red');
 	let z1 = $("object").contents();
