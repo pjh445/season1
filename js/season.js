@@ -17,10 +17,10 @@ $(document).ready(function(){
 	if( i != ""){		
 		//$("#menu", parent.document ).contents().find("nav a").eq( i ).addClass("act");
 		//$(top.document).find("#$nav").attr("src","orange");		
-		
+		$("#menu", parent.document ).contents().find("nav a").addClass("act");
 	}
-	$("#menu", parent.document ).contents().find("nav a").addClass("act");
 	
+	$("nav").a.eq(2).addClass("act");
 
 	
 });////////////전체끝
