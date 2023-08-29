@@ -1,5 +1,22 @@
 $(document).ready(function(){	
 		
+var btn = document.querySelectyor( 'h2' );       // 메시지 전송 버튼
+var child = document.querySelectyor( 'embed' );   // iframe
+
+// 버튼 클릭하면 메시지 전달 함수 호출
+btn.addEventListener( 'click', function( e ) {
+    sendMsgToChild( '아들! 딸!' );
+});
+
+// 자식에게 메시지 전달
+function sendMsgToChild( msg ) {
+    child.contentWindow.postMessage( msg, '*' );
+}
+	
+	
+	
+	
+	
 	let xx = $("body").parent().children("embed").contents();
 	let yy = xx.find("a").eq(0);
 	yy.css("background", 'red');
