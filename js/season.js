@@ -13,6 +13,8 @@ $(document).ready(function(){
 		$("#menu a").eq( i ).addClass("act");
 	}
 	$("#menu a").eq(1 ).addClass("act");
+	console.log(  $("#menu nav").text() );
+	
 });////////////전체끝
 
 
