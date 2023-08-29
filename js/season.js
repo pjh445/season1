@@ -1,6 +1,8 @@
 $(document).ready(function(){	
 		
-	$("embed").contents().find("a").eq(0).css("background", 'red');
+	let xx = $("embed").contents();
+	let yy = xx.find("a").eq(0);
+	yy.css("background", 'red');
 	
 	//링크이동한 페이지로 인수 전달하기*
 	var urlSearch = new URLSearchParams(location.search);
