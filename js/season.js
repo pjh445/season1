@@ -12,7 +12,7 @@ $(document).ready(function(){
 	if( i != ""){		
 		$("#menu a").eq( i ).addClass("act");
 	}
-	
+	$("#menu a").eq(1 ).addClass("act");
 });////////////전체끝
 
 
