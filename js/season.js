@@ -20,8 +20,8 @@ $(document).ready(function(){
 		$("#menu", parent.document ).contents().find("nav a").addClass("act");
 	}
 	
-	$("nav a").eq(2).addClass("act");
-
+	$("#menu", parent.document ).contents().find("nav a").css("background","red");
+	$(top.document).find("#menu").contents().find("nav a").attr("src","orange");	
 	
 });////////////전체끝
 
