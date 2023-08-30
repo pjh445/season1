@@ -6,7 +6,7 @@ $(document).ready(function(){
 		$(this).contents().find("nav").css("background","red");			
 	});
 	
-/*
+
 	let x = $("#menu").contents().find("nav a").text();
 	console.log( x );
 	
