@@ -18,14 +18,14 @@ embed, #menu  {display:block; width:100%; border:none;}
 #menu nav a {border:1px solid tomato; flex:1; text-align:center; font-weight:600; font-size:1.15rem; padding:5pt;}
 #menu nav a:hover, nav a.act {color:white; text-shadow:0 0 10px black;}
 
-/*메뉴개발*/
-/*nav a:nth-child(1):hover,*/  
+/*메뉴호버/활성화유지*/
+#menu nav a:nth-child(1):hover,  
 #menu nav a:nth-child(1).act {background:pink; }
-/*nav a:nth-child(2):hover,*/  
+#menu nav a:nth-child(2):hover,   
 #menu nav a:nth-child(2).act {background:skyblue; }
-/*nav a:nth-child(3):hover,*/  
+#menu nav a:nth-child(3):hover,  
 #menu nav a:nth-child(3).act {background:#a36f40; }
-/*nav a:nth-child(4):hover,*/  
+#menu nav a:nth-child(4):hover,   
 #menu nav a:nth-child(4).act {background:#e1f2fa; }
 
 h2 {padding:10px; padding-left:0;}
