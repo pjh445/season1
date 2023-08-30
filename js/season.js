@@ -1,5 +1,4 @@
 $(document).ready(function(){	
-
 	
 	$("#menu").load(function(){	
 		let txt = $(this).contents().find("nav").html();
