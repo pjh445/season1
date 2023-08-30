@@ -10,11 +10,11 @@ $(document).ready(function(){
 	
 	//index페이지는 ?쿼리스트링이 없는데 빈문자열로 인식하는 문제
 	if( i != ""){
-	    $("#menu").load(function(){	
-		let txt = $(this).contents().find("nav").html();
+	   // $("#menu").load(function(){	
+		let txt = $("#menu").contents().find("nav").html();
 		console.log(txt);
-		$(this).contents().find("nav a").eq(i).attr("class", "act");		
-   	    });
+		$("#menu").contents().find("nav a").eq(i).attr("class", "act");		
+   	    //});
 	}
 	
 });////////////전체끝
