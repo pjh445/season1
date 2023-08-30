@@ -11,7 +11,7 @@ header  {background:orange; text-align:center; padding:30pt;}
 #layout {max-width:1000px; margin:auto;}
 
 embed, #menu  {display:block; width:100%; border:none;}
-nav   {display:flex; padding:20px 0; background:red;}
+nav   {display:flex; padding:20px 0;}
 
 /*메뉴항목공통*/
 nav a {border:1px solid tomato; flex:1; text-align:center; font-weight:600; font-size:1.15rem; padding:5pt;}
