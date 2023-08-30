@@ -13,7 +13,7 @@ $(document).ready(function(){
 	    $("#menu").load(function(){	
 		let txt = $(this).contents().find("nav").html();
 		console.log(txt);
-		$(this).contents().find("nav a").eq(i)..attr("class", "act");		
+		$(this).contents().find("nav a").eq(i).attr("class", "act");		
    	    });
 	}
 	
