@@ -1,10 +1,10 @@
 $(document).ready(function(){	
 
     $("#menu").load("nav.html");
-    $("#menu").load(function(){
-	let txt = $(this).contents().find("nav").html();
+  
+    let txt = $("#menu").contents().find("nav").html();
 	console.log(txt);
-    });
+
 	
 	//링크이동한 페이지로 인수 전달하기	
 	const pa = $(location).prop("search");//?쿼리스트링
