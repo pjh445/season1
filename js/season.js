@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	
 	$("#menu").load(function(){	
-		var txt = $(this).contents().find("a").html();
+		let txt = $(this).contents().find("a").html();
 		console.log(txt);
 		$(this).contents().find("nav").css("background","red");			
 	});
