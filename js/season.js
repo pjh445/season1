@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     $("#menu").load("nav.html");
   
-    let txt = $("#menu").contents().find("nav").html();
+    let txt = $("#menu").contents().find("a").html();
 	console.log(txt);
 
 	
@@ -14,10 +14,8 @@ $(document).ready(function(){
 	
 	//index페이지는 ?쿼리스트링이 없는데 빈문자열로 인식하는 문제
 	if( i != ""){
-	   // $("#menu").load(function(){	
-		let txt = $("#menu").contents().find("nav").html();
-		console.log(txt);
-		$("#menu").contents().find("nav a").eq(i).attr("class", "act");		
+	   // $("#menu").load(function(){		
+		$("#menu").contents().find("a").eq(i).attr("class", "act");		
    	    //});
 	}
 	
