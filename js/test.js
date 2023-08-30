@@ -1,9 +1,9 @@
 $(document).ready(function(){
 	
-	$("#myframe").load(function(){	
-		let txt = $(this).contents().find("div").html();
+	$("#menu").load(function(){	
+		let txt = $(this).contents().find("nav").html();
 		console.log(txt);
-		$(this).contents().find("div").css("background","red");			
+		$(this).contents().find("nav").css("background","red");			
 	});	
 	
 	/*
