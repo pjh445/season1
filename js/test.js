@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	
 	$("#menu").load(function(){	
-		let txt = $(this).contents().find("div").html();
+		let txt = $(this).contents().find("a").html();
 		console.log(txt);
 		$(this).contents().find("nav").css("background","red");			
 	});	
