@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
-<body>
-<iframe id="myframe" src="child.html" width="100%" height="500" style="background:#f1f1f1;"></iframe>
-<p style="padding:100px;">Click the button inside the iframe to change the background color of the iframe's parent document.</p>
-
+<head>
 <script src="https://code.jquery.com/jquery-1.4.2.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -14,5 +11,9 @@ $(document).ready(function(){
 	});	
 });
 </script>
+</head>
+<body>
+<iframe id="myframe" src="child.html" width="100%" height="500" style="background:#f1f1f1;"></iframe>
+<p style="padding:100px;">Click the button inside the iframe to change the background color of the iframe's parent document.</p>
 </body>
 </html>
