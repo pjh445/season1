@@ -7,7 +7,7 @@ $(document).ready(function(){
 	console.log( i );  //1,2,3 중 하나.
 	
 	$("#menu").load(function(){		
-		if( i != ""){		
+		if( i != ""){//쿼리스트링이 있다면 적용함.
 				$("#menu").contents().find("nav a").eq(i).attr("class", "act");
 		}		
 	});

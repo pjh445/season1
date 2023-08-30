@@ -10,7 +10,7 @@ header  {background:orange; text-align:center; padding:30pt;}
 
 #layout {max-width:1000px; margin:auto;}
 
-embed, #menu  {display:block; width:100%; border:none;}
+object, embed, #menu  {display:block; width:100%; border:none;}
 nav   {display:flex; padding:20px 0;}
 
 /*메뉴항목공통*/
