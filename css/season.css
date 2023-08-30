@@ -10,6 +10,8 @@ header  {background:orange; text-align:center; padding:30pt;}
 
 #layout {max-width:1000px; margin:auto;}
 
+embed, #menu  {display:block; width:100%; border:none;}
+
 #menu nav   {display:flex; padding:20px 0; background:red;}
 
 /*메뉴항목공통*/
@@ -30,4 +32,3 @@ h2 {padding:10px; padding-left:0;}
 p {text-align:justify;}
 main img {border-radius:20px; margin-top:20px;}
 
-embed,iframe  {display:block; width:100%; border:none;}
