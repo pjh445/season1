@@ -11,7 +11,7 @@ $(document).ready(function(){
 	let x = $("#menu").contents().find("nav a").text();
 	console.log( x );
 	
-	/*링크이동한 페이지로 인수 전달하기*/	
+	/*링크이동한 페이지로 인수 전달하기	
 	const pa = $(location).prop("search");//?쿼리스트링
 	console.log(pa); //?p=0
 	const i = pa.substr(-1);// 0,1,2,3
@@ -24,7 +24,6 @@ $(document).ready(function(){
 	*/
 	
 });////////////전체끝
-
 
 
 
