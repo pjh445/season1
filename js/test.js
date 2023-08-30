@@ -1,9 +1,10 @@
 $(document).ready(function(){
 	
 	$("#menu").load(function(){	
-		let txt = $(this).contents().find("a").html();
+		let txt = $(this).contents().find("nav").html();
 		console.log(txt);
-		$(this).contents().find("nav").css("background","red");			
+		$(this).contents().find("nav a").eq(1).css("background","red");		
+$(this).contents().find("nav a").eq(2).addClass("act");		
 	});	
 	
 	/*
