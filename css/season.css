@@ -30,4 +30,4 @@ h2 {padding:10px; padding-left:0;}
 p {text-align:justify;}
 main img {border-radius:20px; margin-top:20px;}
 
-embed  {width:100%;}
+embed,iframe  {display:block; width:100%;}
