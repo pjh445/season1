@@ -1,7 +1,7 @@
 $(document).ready(function(){	
 
 	$("#menu").load("nav.html");
-  
+  	let txt = $("#menu").contents().find("a");
     	console.log(txt);
 
 	
