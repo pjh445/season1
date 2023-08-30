@@ -1,13 +1,13 @@
 $(document).ready(function(){	
 
-	/*
+	
 	$("#menu").load(function(){	
-		var txt = $(this).contents().find("nav").html();
+		var txt = $(this).contents().find("a").html();
 		console.log(txt);
 		$(this).contents().find("nav").css("background","red");			
 	});
-	*/
-
+	
+/*
 	let x = $("#menu").contents().find("nav a").text();
 	console.log( x );
 	
@@ -21,9 +21,10 @@ $(document).ready(function(){
 	if( i != ""){		
 		$("#menu").contents().find("nav a").eq(i).attr("class", "act");
 	}
-	
+	*/
 	
 });////////////전체끝
+
 
 
 
